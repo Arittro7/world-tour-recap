@@ -11,8 +11,8 @@ const Country = ({country}) => {
     setVisited(!visited)
   }
   return (
-    <div className='country'>
-      <h2>Country Name : {name?.common} </h2>
+    <div className={`country ${visited ? `visited` : `will-visit`}`}>
+      <h2 style={{color : visited ? `white` : `black`}} > Country Name {name?.common} </h2>
       <img src={flags.png} alt="" />
       <h2>Population : {population}</h2>
       <p>Code: {cca3}</p>

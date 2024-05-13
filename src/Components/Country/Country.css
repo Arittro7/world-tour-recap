@@ -10,3 +10,13 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;  
 }
+
+.visited{
+  background-color: brown;
+  color: white;
+}
+
+.will-visit{
+  background-color: rgb(37, 202, 87);
+  color: black;
+}
